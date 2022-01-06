@@ -2,7 +2,7 @@
 ![](src/img/logo.png)
 ##poc-quarkus-flyway-csv  
 
-####Projeto trata-se de:
+#### Projeto trata-se de:
     -Criar uma POC para avaliar se o quarkus + flyway permiti importação de CSV.
 
 ## Rodando a aplicação em modo dev
@@ -16,7 +16,7 @@ Você pode executar o seu arquivo noi modo dev que permite a codificação ao vi
 
 ## Configurações do projeto
 
-####Para iniciar o projeto, utilizaremos extenções e documentações do site: https://quarkus.io/
+#### Para iniciar o projeto, utilizaremos extenções e documentações do site: https://quarkus.io/
 
 No quarkus.io determinamos o nome do projeto e quais as extenções iniciais queremos inicializar.  
 Neste projeto não vamos começar com nenhuma. Adicionaremos em seguida as extensões necessárias.  
@@ -64,7 +64,7 @@ Localize o arquivo ***application.properties*** e configure da seguinte maneira 
 
 ![](src/img/appProperties.png)  
 
-#Realizando o CRUD  
+# Realizando o CRUD  
 
 Criamos a entidade ***Bebida*** e as configurações de ***BebidaResource***  
 Fazemos uma chamada no ***Postman*** em ***localhost:8080/bebida***  
