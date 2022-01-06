@@ -42,7 +42,13 @@ Este comando, adciona uma nova extensão
 
 Podemos verificar todas as nossas estensões no arquivo ***pom.xml***  
 
-![](src/img/pomXML.png)
+![](src/img/pomXML.png)  
+
+### Neste projeto as extensões que devemos baixar são:  
+    
+    -quarkus-hibernate-orm-panache  
+    -quarkus-jdbc-postgresql  
+    -quarkus-resteasy-jackson  
 
 Para continuação de nosso projeto vamos precisar subir uma imagem docker de Postgres:  
 
@@ -74,3 +80,23 @@ Fazemos uma chamada no ***Postman*** em ***localhost:8080/bebida***
 E em seguida podemos notar que nossa tabela **bebida** foi criada em nosso DB e a bebida Skol foi cadastrada na tabela.  
 
 ![](src/img/tabela.png)
+
+# Flyway  
+
+Começamos adicionando a extensão do Flyway com o comando: 
+
+    ./mvnw quarkus:add-extension -Dextensions="io.quarkus:quarkus-flyway"
+
+Em seguida conferimos no **pom.XML** se esta aparecendo a extensão correta e vamos para o arquivo **application.properties** para ajustar as configurações do Flyway.  
+
+![](src/img/flywayConfig.png)
+
+- Criar uma pasta **db** dentro do diretorio **src/main/resources**. Dentro de **db** criar as pastas **dev** e **migration**.  
+
+- Na pasta **migration** vamos fazer as criação das tabelas e na pasta **dev** vamos inserir dados.  
+
+Após estas configurações subimos a aplicação novamente com comando:
+```shell script
+./mvnw compile quarkus:dev
+```
+E podemos verificar no DBeaver que as tabelas foram criadas automaticamente e inseridos os dados nas tabelas.
