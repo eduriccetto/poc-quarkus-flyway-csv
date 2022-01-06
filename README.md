@@ -1,6 +1,6 @@
 # Project
 ![](src/img/logo.png)
-##poc-quarkus-flyway-csv  
+## poc-quarkus-flyway-csv  
 
 #### Projeto trata-se de:
     -Criar uma POC para avaliar se o quarkus + flyway permiti importação de CSV.
@@ -58,7 +58,7 @@ Abrimos o DBeaver para realizar a conexão:
 -username = postgres  
 -senha = 123456  
 
-###Configurando o ***application.properties***  
+### Configurando o ***application.properties***  
 
 Localize o arquivo ***application.properties*** e configure da seguinte maneira para conexão com o DB  
 
