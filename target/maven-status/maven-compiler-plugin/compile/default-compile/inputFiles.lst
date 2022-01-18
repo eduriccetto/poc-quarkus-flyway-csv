@@ -1,3 +1,10 @@
+/home/eduardopr/estudos/quarkus/POC-Quarkus-Flyway-Csv/poc-quarkus-flyway-csv/src/main/java/org/acme/CSV/BasicCsvWriter.java
+/home/eduardopr/estudos/quarkus/POC-Quarkus-Flyway-Csv/poc-quarkus-flyway-csv/src/main/java/org/acme/CSV/LeitorCSV.java
+/home/eduardopr/estudos/quarkus/POC-Quarkus-Flyway-Csv/poc-quarkus-flyway-csv/src/main/java/org/acme/CSV/ImportCsvPrintWriter.java
+/home/eduardopr/estudos/quarkus/POC-Quarkus-Flyway-Csv/poc-quarkus-flyway-csv/src/main/java/org/acme/CSV/BasicCsvReader.java
 /home/eduardopr/estudos/quarkus/POC-Quarkus-Flyway-Csv/poc-quarkus-flyway-csv/src/main/java/org/acme/resource/BebidaResource.java
+/home/eduardopr/estudos/quarkus/POC-Quarkus-Flyway-Csv/poc-quarkus-flyway-csv/src/main/java/org/acme/CSV/EscritorCSV.java
+/home/eduardopr/estudos/quarkus/POC-Quarkus-Flyway-Csv/poc-quarkus-flyway-csv/src/main/java/org/acme/CSV/ImportCSV.java
 /home/eduardopr/estudos/quarkus/POC-Quarkus-Flyway-Csv/poc-quarkus-flyway-csv/src/main/java/org/acme/GreetingResource.java
 /home/eduardopr/estudos/quarkus/POC-Quarkus-Flyway-Csv/poc-quarkus-flyway-csv/src/main/java/org/acme/Bebida.java
+/home/eduardopr/estudos/quarkus/POC-Quarkus-Flyway-Csv/poc-quarkus-flyway-csv/src/main/java/org/acme/CSV/MoveArquivo.java

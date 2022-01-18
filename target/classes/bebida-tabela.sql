@@ -1,4 +1,0 @@
-CREATE TABLE bebida(
-    id VARCHAR(3) PRIMARY KEY,
-    nome VARCHAR(80) NOT NULL,
-    tipo VARCHAR(80) NOT NULL);

@@ -1,4 +1,5 @@
 org/acme/resource/BebidaResource.class
-META-INF/panache-archive.marker
 org/acme/GreetingResource.class
+org/acme/CSV/ImportCSV.class
+META-INF/panache-archive.marker
 org/acme/Bebida.class

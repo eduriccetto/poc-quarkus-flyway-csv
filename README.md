@@ -100,3 +100,13 @@ Após estas configurações subimos a aplicação novamente com comando:
 ./mvnw compile quarkus:dev
 ```
 E podemos verificar no DBeaver que as tabelas foram criadas automaticamente e inseridos os dados nas tabelas.
+
+# Importação de CSV
+
+Começamos criando o diretório CSV, onde fizemos algumas classes como teste.
+Mas as duas classes que importam para uso da importação são:
+
+- **ImportCsvPrintWriter** = que usamos para ler o arquivo .csv e gerar um arquivo .sql de importação das tabelas.
+- **MoveArquivo** = que usamos para tranferir o arquivo .sql criado para o diretorio dev das migrações do flyway. 
+
+e com estas duas classes conseguimos finalizar o projeto da POC.

@@ -1,1 +1,0 @@
-insert into bebida(id, nome, tipo, qtd, moeda, valor) values("1", 'Corona', 'Cerveja', '50', 'R$', '5,50');
